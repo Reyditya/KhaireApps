@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/warna2"
+    app:cardElevation="0dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/namaMandor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kasim Rahdunol"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato" />
+
+        <TextView
+            android:id="@+id/hasilMandor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Renovasi kamar mandi"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato"/>
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/list"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/warna3" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
